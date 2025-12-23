@@ -3,6 +3,7 @@
 
 #include "DenseMatrix.hpp"
 #include "Vector.hpp"
+#include <vector>
 
 namespace MonkeySolve {
 

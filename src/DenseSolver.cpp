@@ -92,7 +92,9 @@ Vector DenseSolver::backwardSubstitution(const DenseMatrix& U, const Vector& y) 
     size_t n = U.rows();
     Vector x(n);
     
-    for (int i = n - 1; i >= 0; --i) {
+    if (n == 0) return x;
+    
+    for (size_t i = n; i-- > 0; ) {
         double sum = y[i];
         for (size_t j = i + 1; j < n; ++j) {
             sum -= U(i, j) * x[j];
