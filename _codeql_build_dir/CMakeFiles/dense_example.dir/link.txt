@@ -1,0 +1,1 @@
+/home/runner/work/MonkeySolve/.codeql-scratch/dbs/cpp/working/autobuild/bin/c++ -O3 -march=native -DNDEBUG -Wl,--dependency-file=CMakeFiles/dense_example.dir/link.d CMakeFiles/dense_example.dir/examples/dense_example.cpp.o -o dense_example  libmonkeysolve.a

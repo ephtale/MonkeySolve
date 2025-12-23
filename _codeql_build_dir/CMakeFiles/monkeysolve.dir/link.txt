@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmonkeysolve.a CMakeFiles/monkeysolve.dir/src/DenseMatrix.cpp.o CMakeFiles/monkeysolve.dir/src/SparseMatrix.cpp.o CMakeFiles/monkeysolve.dir/src/Vector.cpp.o CMakeFiles/monkeysolve.dir/src/DenseSolver.cpp.o CMakeFiles/monkeysolve.dir/src/SparseSolver.cpp.o
+/usr/bin/ranlib libmonkeysolve.a
